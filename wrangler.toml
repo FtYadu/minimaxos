@@ -1,0 +1,12 @@
+name = "minimax-studio"
+compatibility_date = "2024-11-25"
+pages_build_output_dir = ".next"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "service-worker"
+
+[[pages]]
+name = "minimax-studio"

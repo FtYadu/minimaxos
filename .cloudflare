@@ -1,0 +1,19 @@
+# Cloudflare Pages build configuration
+
+# Build command
+npm run build
+
+# Build output directory
+.next
+
+# Node version
+NODE_VERSION=18
+
+# Environment variables (set in Cloudflare dashboard if needed)
+# NEXT_PUBLIC_API_URL=
+
+# Framework preset
+next
+
+# Compatibility flags
+compatibility_flags = ["nodejs_compat"]

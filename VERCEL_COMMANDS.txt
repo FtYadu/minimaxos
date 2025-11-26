@@ -1,0 +1,191 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║              🚀 VERCEL - ONE COMMAND DEPLOYMENT! 🚀                      ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+✅ Vercel CLI: INSTALLED (v48.10.11)
+✅ Configuration: READY (vercel.json)
+✅ Next.js: AUTO-DETECTED
+✅ Deploy script: READY
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🎯 FASTEST DEPLOYMENT (ONE COMMAND!)                                     │
+└──────────────────────────────────────────────────────────────────────────┘
+
+cd /home/claude/minimax-studio
+./deploy-vercel.sh
+
+  → Opens browser for login (first time only)
+  → Auto-detects Next.js settings
+  → Deploys to production
+  → Gives you LIVE URL!
+  → DONE IN 60 SECONDS! ⚡
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 📋 WHAT HAPPENS:                                                         │
+└──────────────────────────────────────────────────────────────────────────┘
+
+1. Browser opens for Vercel login
+   (Use GitHub/GitLab/Bitbucket/Email)
+
+2. Vercel detects Next.js automatically
+   ✓ Build command: npm run build
+   ✓ Output directory: .next
+   ✓ Framework: Next.js
+
+3. Builds and deploys to global CDN
+   ✓ 100+ edge locations
+   ✓ Automatic HTTPS
+   ✓ Optimized for Next.js
+
+4. Returns your LIVE URL!
+   Example: https://minimax-studio.vercel.app
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ⚡ ALTERNATIVE: Manual Command                                           │
+└──────────────────────────────────────────────────────────────────────────┘
+
+cd /home/claude/minimax-studio
+vercel --prod
+
+  → Same result, just without the fancy script!
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🔄 CONTINUOUS DEPLOYMENT                                                 │
+└──────────────────────────────────────────────────────────────────────────┘
+
+After first deploy, connect to GitHub:
+
+1. Create GitHub repo
+2. Push code:
+   git remote add origin https://github.com/YOUR_USERNAME/minimax-studio.git
+   git push -u origin main
+
+3. In Vercel dashboard:
+   → Import Git Repository
+   → Select minimax-studio
+   → Done!
+
+Now every git push = auto-deploy! 🔄
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🌟 VERCEL BENEFITS                                                       │
+└──────────────────────────────────────────────────────────────────────────┘
+
+✅ Made by Next.js creators - PERFECT integration
+✅ Edge functions - Serverless at the edge
+✅ Image optimization - Automatic
+✅ Analytics - Real-time performance
+✅ Preview deployments - Test before production
+✅ Custom domains - Free SSL included
+✅ Global CDN - 100+ locations
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🎯 YOUR SITE URL                                                         │
+└──────────────────────────────────────────────────────────────────────────┘
+
+Default: https://minimax-studio.vercel.app
+         https://minimax-studio-[hash].vercel.app
+
+Custom domain: Add in Vercel dashboard
+               → Project → Settings → Domains
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ✨ AFTER DEPLOYMENT                                                      │
+└──────────────────────────────────────────────────────────────────────────┘
+
+1. Open your Vercel URL
+2. Click "No API Key" button
+3. Add MiniMax API key: https://platform.minimax.io
+4. Test all 5 features:
+   ✓ Video Generation (Hailuo 2.3)
+   ✓ Image Generation (image-01)
+   ✓ Text Chat (MiniMax M2)
+   ✓ Music Generation (music-2.0)
+   ✓ Code Sandbox (live editor)
+
+5. Share your AI Studio! 🎨
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🆘 TROUBLESHOOTING                                                       │
+└──────────────────────────────────────────────────────────────────────────┘
+
+❌ "Command not found: vercel"
+-------------------------------
+npm install -g vercel
+
+
+❌ "Login failed"
+------------------
+vercel login
+# Use email or connect GitHub
+
+
+❌ "Build failed"
+------------------
+# Test locally first:
+npm install
+npm run build
+# If successful, deploy again
+
+
+❌ "Want to redeploy"
+----------------------
+vercel --prod --force
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 💡 PRO TIPS                                                              │
+└──────────────────────────────────────────────────────────────────────────┘
+
+1. Preview Deployments:
+   vercel
+   # Gets preview URL for testing
+
+2. Production Deploy:
+   vercel --prod
+   # Goes to production URL
+
+3. Check Status:
+   vercel ls
+   # List all deployments
+
+4. View Logs:
+   vercel logs [deployment-url]
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🔥 VERCEL VS OTHERS                                                      │
+└──────────────────────────────────────────────────────────────────────────┘
+
+                  Vercel      Cloudflare   Netlify
+Next.js Optimized  BEST ✅     Good         Good
+Deploy Speed       FASTEST ⚡   Fast         Fast
+Edge Functions     Native ✅    Yes          Limited
+Free Bandwidth     100GB        Unlimited    100GB
+Analytics          Free ✅      Paid         Paid
+Preview Deploys    Auto ✅      Manual       Auto
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🎯 READY TO DEPLOY!                                                      │
+└──────────────────────────────────────────────────────────────────────────┘
+
+Run this command NOW:
+
+./deploy-vercel.sh
+
+↑ That's it! One command! ↑
+
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                 LIVE IN 60 SECONDS! LET'S GO! 🚀                         ║
+╚══════════════════════════════════════════════════════════════════════════╝

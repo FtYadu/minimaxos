@@ -1,0 +1,147 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║              🚀 DEPLOY TO NETLIFY - COPY & PASTE COMMANDS 🚀             ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+📍 YOU ARE HERE: /home/claude/minimax-studio
+✅ Git initialized, all files committed
+✅ Ready to push to GitHub and deploy!
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ METHOD 1: Interactive Script (EASIEST) ⭐                                 │
+└──────────────────────────────────────────────────────────────────────────┘
+
+cd /home/claude/minimax-studio
+./create-github-repo.sh
+
+  → Follow the prompts
+  → Creates repo connection
+  → Pushes code automatically
+  → Gives you Netlify deployment instructions
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ METHOD 2: Manual Commands (If you prefer control)                        │
+└──────────────────────────────────────────────────────────────────────────┘
+
+STEP 1: Create GitHub Repository
+---------------------------------
+Go to: https://github.com/new
+• Name: minimax-studio
+• Don't initialize with README
+• Click "Create repository"
+• Copy the repository URL
+
+
+STEP 2: Connect & Push
+-----------------------
+cd /home/claude/minimax-studio
+
+# Replace YOUR_USERNAME with your GitHub username
+git remote add origin https://github.com/YOUR_USERNAME/minimax-studio.git
+git branch -M main
+git push -u origin main
+
+
+STEP 3: Deploy to Netlify
+--------------------------
+Go to: https://app.netlify.com
+• Click: "Add new site" → "Import an existing project"
+• Choose: "GitHub"
+• Select: "minimax-studio"
+• Click: "Deploy site"
+
+⏱️  Wait 2-3 minutes → ✅ LIVE!
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ METHOD 3: One-Line Deploy (Netlify CLI)                                  │
+└──────────────────────────────────────────────────────────────────────────┘
+
+# Install Netlify CLI (one-time)
+npm install -g netlify-cli
+
+# Deploy
+cd /home/claude/minimax-studio
+netlify login
+netlify deploy --prod
+
+  → Instant deployment!
+  → No GitHub needed
+  → Follow prompts
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🆘 TROUBLESHOOTING                                                       │
+└──────────────────────────────────────────────────────────────────────────┘
+
+❌ "Authentication failed"
+---------------------------
+# Option A: Use GitHub Personal Access Token
+1. Go to: https://github.com/settings/tokens
+2. Generate new token (classic)
+3. Select: repo (full access)
+4. Copy token
+5. Use as password when pushing
+
+# Option B: SSH Keys
+ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+# Add to GitHub: https://github.com/settings/keys
+
+
+❌ "Remote already exists"
+---------------------------
+git remote set-url origin https://github.com/YOUR_USERNAME/minimax-studio.git
+git push -u origin main
+
+
+❌ "Build failed on Netlify"
+-----------------------------
+• Check: Build command = npm run build
+• Check: Publish directory = .next
+• Check: Node version = 18
+• Already configured in netlify.toml ✅
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 📚 FULL GUIDES                                                           │
+└──────────────────────────────────────────────────────────────────────────┘
+
+• Quick Start:        cat DEPLOY_NOW.md
+• Complete Guide:     cat NETLIFY.md
+• All Files:          ls -la
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ✨ AFTER DEPLOYMENT                                                      │
+└──────────────────────────────────────────────────────────────────────────┘
+
+1. Open your Netlify site URL
+2. Click "No API Key" button
+3. Add your MiniMax API key from: https://platform.minimax.io
+4. Test all features:
+   ✓ Video Generation (Hailuo 2.3)
+   ✓ Image Generation (image-01)
+   ✓ Text Chat (MiniMax M2)
+   ✓ Music Generation (music-2.0)
+   ✓ Code Sandbox (live editor)
+
+5. Customize your URL:
+   Site Settings → Domain → Edit site name
+   Example: https://minimax-studio-yadu.netlify.app
+
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ 🎯 RECOMMENDED: Run the Interactive Script                               │
+└──────────────────────────────────────────────────────────────────────────┘
+
+./create-github-repo.sh
+
+↑ This handles everything for you! ↑
+
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    🚀 5 MINUTES TO LIVE! 🚀                              ║
+╚══════════════════════════════════════════════════════════════════════════╝
